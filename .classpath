@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="D:/media/MyEclipseFile/FollowHer/libs/jpct_ae.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Bones"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/OpenCV-2.3.1"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
