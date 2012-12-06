@@ -2,6 +2,7 @@ package ebay.followher;
 
 import Helpers.Constants;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.webkit.SslErrorHandler;
@@ -47,7 +48,7 @@ public class BrowseItem extends Activity {
 
 			@Override
 			public void onReceivedSslError(WebView view,
-					SslErrorHandler handler, android.net.http.SslError error) { 
+					SslErrorHandler handler, android.net.http.SslError error) {
 				// 重写此方法可以让webview处理https请求
 				handler.proceed();
 			}
@@ -56,11 +57,16 @@ public class BrowseItem extends Activity {
 
 	@Override
 	public boolean onKeyDown(int keyCoder, KeyEvent event) {
-		if (webView.canGoBack() && keyCoder == KeyEvent.KEYCODE_BACK) {
-			webView.goBack(); // goBack()表示返回webView的上一页面
-
-			return true;
-		}
+//		if(webView.canGoBack() == false && keyCoder == KeyEvent.KEYCODE_BACK)
+//			return false;
+//		
+//		if (webView.canGoBack() && keyCoder == KeyEvent.KEYCODE_BACK) {
+//			webView.goBack(); // goBack()表示返回webView的上一页面
+//			return true;
+//		}
+//		return false;
+		Intent i = new Intent(BrowseItem.this, Home.class);
+    	startActivity(i);
 		return false;
 	}
 

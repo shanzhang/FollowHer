@@ -33,6 +33,14 @@
             android:name=".BrowseItem"
             android:label="@string/title_activity_browseitem" >
         </activity>
+        <activity
+            android:name=".DressSelector"
+            android:label="@string/title_activity_browseitem" >
+        </activity>
+        <activity
+            android:name=".TextureSelector"
+            android:label="@string/title_activity_browseitem" >
+        </activity>
     </application>
 
 </manifest>

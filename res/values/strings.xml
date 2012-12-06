@@ -2,7 +2,7 @@
 
     <string name="app_name">FollowHer</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_welcome">Follow Her</string>
     <string name="title_activity_home">Home</string>
     <string name="title_activity_getphoto">photo</string>
     <string name="title_activity_browseitem">browser</string>
